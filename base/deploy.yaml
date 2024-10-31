@@ -12,6 +12,8 @@ spec:
       labels:
         app: kargo-demo
     spec:
+      nodeSelector:
+        kubernetes.io/os: linux
       containers:
       - name: nginx 
         image: public.ecr.aws/nginx/nginx:placeholder
