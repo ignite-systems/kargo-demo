@@ -16,7 +16,7 @@ spec:
         kubernetes.io/os: linux
       containers:
       - name: nginx 
-        image: public.ecr.aws/nginx/nginx:placeholder
+        image: ignitesystems.azurecr.io/ignite-portal:placeholder
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
