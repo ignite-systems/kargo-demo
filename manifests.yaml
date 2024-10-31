@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - image: ignitesystems.azurecr.io/ignite-portal:develop-126275
+      - image: ignitesystems.azurecr.io/ignite-portal:develop-126431
         name: nginx
         volumeMounts:
         - mountPath: /usr/share/nginx/html
